@@ -60,7 +60,13 @@ h4,
     max-height: 600px;
 }
 
-/*  */
+/* Carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3%
+}
+
+/* Cartas */
 
 .card-img-top {
     width: 100%;
@@ -68,23 +74,19 @@ h4,
     object-fit: cover;
 }
 
-.footer{
+.footer {
     display: flex;
 }
 
-.white {
+.color-ico {
     color: #fff;
     margin: auto
 }
 
 /* Media Screen */
 @media (max-width: 440px) {
-    .footer{
+    .footer {
         display: block;
-    }
-
-    .margen {
-        margin-top: 0px;
     }
 }
 
